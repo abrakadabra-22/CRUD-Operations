@@ -11,8 +11,6 @@ let tasks = [
   { id: 3, title: 'Write Node.js app', completed: true }
 ];
 
-
-
 // Get all tasks
 app.get('/tasks', (req, res) => {
   res.status(200).json(tasks);
